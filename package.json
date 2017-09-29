@@ -1,0 +1,10 @@
+{
+  "name": "csu-study-note",
+  "version": "1.0.0",
+  "description": "markdown book of study note.",
+  "scripts": {
+    "serve": "docsify serve ./docs"
+  },
+  "author": "tw-edu-csu-90618137",
+  "license": "MIT"
+}
