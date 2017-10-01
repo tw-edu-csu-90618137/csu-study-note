@@ -97,7 +97,7 @@ function katexParser() {
 
 window.$docsify = {
   name: '正修科技大學-學習筆記',
-  nameLink: '/',
+  nameLink: 'https://tw-edu-csu-90618137.github.io/csu-study-note',
   repo: 'tw-edu-csu-90618137/csu-study-note',
   el: '#main',
   loadSidebar: true,
