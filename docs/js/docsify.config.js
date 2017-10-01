@@ -73,7 +73,7 @@ function katexParser() {
 
       return content.replace(/\$\$([\s\S]*?)\$\$/g, function(m, code) {
         try {
-          if (/^\n/g.test(code)) {
+          if (/^\r\n/g.test(code)) {
             stack.push(`<p>${katex.renderToString(code.trim())}</p>`);
           } else {
             stack.push(katex.renderToString(code.trim()));
