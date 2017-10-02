@@ -104,7 +104,7 @@ window.$docsify = {
   loadNavbar: true,
   coverpage: true,
   maxLevel: 6,
-  subMaxLevel: 6,
+  subMaxLevel: 2,
   themeColor: '#bd8159',
   autoHeader: true,
   noEmoji: true,
