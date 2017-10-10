@@ -3,8 +3,29 @@
   "version": "1.0.0",
   "description": "markdown book of study note.",
   "scripts": {
-    "serve": "docsify serve ./docs"
+    "serve": "docsify serve ./docs --open true",
+    "webpack-d": "webpack --env.dev",
+    "webpack": "webpack --env"
   },
   "author": "tw-edu-csu-90618137",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "less-loader": "^4.0.5",
+    "npm-run-all": "^4.1.1",
+    "script-loader": "^0.7.2",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.6.0"
+  },
+  "peerDependencies": {
+    "less": "^2.3.1"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0"
+  }
 }

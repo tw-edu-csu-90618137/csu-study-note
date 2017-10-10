@@ -1,3 +1,7 @@
+- 課程項目
+  - [微積分](calculus/README.md)
+  - [國文](chinese/README.md)
+  - [計算機概論](introduction-to-computers/README.md)
 - language
  - [繁體中文](README.md)
 - [部落格](https://shentengtu.github.io/)
