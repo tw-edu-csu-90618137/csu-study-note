@@ -1,6 +1,6 @@
 (($docsify,katex) => {
-  if(!$docsify){console.err("$docsify no exist.")}
-  if(!katex){console.err("$katex no exist.")}
+  if(!$docsify){console.error("$docsify no exist.")}
+  if(!katex){console.error("$katex no exist.")}
   if ($docsify && katex) {
     $docsify.plugins = [].concat(docsifyKatex(), $docsify.plugins)
   }

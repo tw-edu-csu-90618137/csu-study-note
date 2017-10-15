@@ -1,5 +1,5 @@
 (($docsify)=>{
-  if(!$docsify){console.err("$docsify no exist.")}
+  if(!$docsify){console.error("$docsify no exist.")}
   if ($docsify) {
     $docsify.plugins = [].concat(docsifyFooter(), $docsify.plugins)
   }
