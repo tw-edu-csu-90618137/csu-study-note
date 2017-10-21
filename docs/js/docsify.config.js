@@ -76,6 +76,6 @@ window.$docsify = {
   themeColor: '#bd8159',
   autoHeader: true,
   noEmoji: true,
-  footer: footerGen,
+  footer: footerGen,//footer plugin
   plugins: [hookState()]
 }
